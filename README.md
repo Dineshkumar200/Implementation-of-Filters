@@ -87,6 +87,11 @@ plt.imshow(img4)
 
 ```
 
+
+
+
+
+
 iv) Using Median Filter
 ```Python
 img5=cv2.medianBlur(src=img1,ksize=11)
@@ -139,9 +144,8 @@ plt.imshow(img7)
 
 ```
 
-## OUTPUT:
+## <br/><br/><br/><br/><br/><br/><br/>OUTPUT:
 ### 1. Smoothing Filters
-</br>
 
 i) Using Averaging Filter
 
@@ -152,18 +156,15 @@ ii) Using Weighted Averaging Filter
 
 ![f2](https://user-images.githubusercontent.com/75235789/167658713-38b1b6e4-5237-4890-bb5d-777a87b02bb9.jpg)
 
-
-iii) Using Gaussian Filter
+<br/><br/><br/><br/>iii) Using Gaussian Filter
 
 ![f3](https://user-images.githubusercontent.com/75235789/167658708-9cdd3d3e-0ac5-4c0b-86fe-fea29ebe9a3f.jpg)
-
-
 
 iv) Using Median Filter
 ![f4](https://user-images.githubusercontent.com/75235789/167658699-9efda682-e02a-461d-b9c8-4d4dee9c80f1.jpg)
 
 
-### 2. Sharpening Filters
+### <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>2. Sharpening Filters
 
 
 i) Using Laplacian Kernal
@@ -176,5 +177,5 @@ ii) Using Laplacian Operator
 ![f6](https://user-images.githubusercontent.com/75235789/167658721-28c9588a-d223-4b72-8429-a03006346749.jpg)
 
 
-## Result:
+## <br/><br/><br/><br/>Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
